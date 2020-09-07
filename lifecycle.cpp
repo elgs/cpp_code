@@ -59,7 +59,7 @@ public:
     }
 
     friend ostream& operator<<(ostream& os, const A& a) {
-        cout << a.s;
+        os << a.s;
         return os;
     }
 };
